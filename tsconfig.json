@@ -1,7 +1,15 @@
 {
   "compilerOptions": {
-    "target": "ES6",
+    "target": "ESNext",
     "module": "ES6",
-    "strict": true
-  }
+    "strict": true,
+    "noEmit": true,
+    "isolatedModules": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "jsx": "react",
+    "moduleResolution": "Node",
+    "resolveJsonModule": true
+  },
+  "include": ["./src/**/*"]
 }
